@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="RahulShetty.Alertpopup"/>
+      <class name="Getlinks.Gettalllinks2"/>
+      <class name="RahulShetty.Checkboxes"/>
+      <class name=".YourTestClass"/>
+      <class name="Getlinks.Alllinks"/>
+      <class name="rellativeloacters.Rellativelocators2"/>
+      <class name="dropdown.Handlecheckbox"/>
+      <class name="guidencecode.linksforandwhileloop"/>
+      <class name="RahulShetty.Dynamicdropdown"/>
+      <class name="links.Limkscapture"/>
+      <class name="RahulShetty.Autosugessivedropdown"/>
+      <class name="dropdown.Autosuggesivedropdown"/>
+      <class name="Brokenlinks.Brokeliks4"/>
+      <class name=".seleniumautomation"/>
+      <class name="dimessionwidhthnexttab.screenshotsizewidhth"/>
+      <class name="Getlinks.Getallinks"/>
+      <class name="practice.Explicitwait"/>
+      <class name="Mouseactions.Mouseaction2"/>
+      <class name="dropdown.frameandling"/>
+      <class name="Scrolljavascriptexecuter.Scroll1"/>
+      <class name="dropdown.dynamicdropdown"/>
+      <class name="Webtable.Serachwebtable3"/>
+      <class name="practice.Screenshotes"/>
+      <class name=".webelementmethod"/>
+      <class name="Scroll.Scrooling"/>
+      <class name="Mouseactions.MouseAction1"/>
+      <class name="Scrolljavascriptexecuter.Scroll2"/>
+      <class name="practice.Keyboardaction"/>
+      <class name="dropdown.dropdown"/>
+      <class name="Checkboxes.Checkboxhandle"/>
+      <class name="practice.Screenshotes2"/>
+      <class name=".Orangelogin"/>
+      <class name="dropdown.allcheckboxes"/>
+      <class name="testngpractice.Day2"/>
+      <class name="practice.Windrowhandle1"/>
+      <class name="Getlinks.Getliks4"/>
+      <class name="dropdown.Dropdown2"/>
+      <class name="dimessionwidhthnexttab.Tab3"/>
+      <class name="dimessionwidhthnexttab.nextwindow2"/>
+      <class name="links.Linkshandle"/>
+      <class name="practice.Popuphandle"/>
+      <class name="Getlinks.Getalllinkjs"/>
+      <class name="listwebelement.Class1"/>
+      <class name="practice.windohandles"/>
+      <class name="practice.Mouseactions"/>
+      <class name="Scrolljavascriptexecuter.Scroll"/>
+      <class name=".Dropdownhadnling"/>
+      <class name="Scroll.Scroll2"/>
+      <class name=".Dataprovider"/>
+      <class name="RahulShetty.Assertion"/>
+      <class name="practice.Practice4"/>
+      <class name="practice.Implicitwait"/>
+      <class name="RahulShetty.Browserresize"/>
+      <class name="practice.Practice2"/>
+      <class name="practice.Mauseactions"/>
+      <class name="practice.Practice3"/>
+      <class name="dropdown.Autosugetiondropdown"/>
+      <class name="dropdown.dropdown3"/>
+      <class name="dropdown.dropdown1"/>
+      <class name="windowhandle.Window1"/>
+      <class name="Webtable.Searchwebtable2"/>
+      <class name="RahulShetty.NavigateCommand"/>
+      <class name="RahulShetty.Browserposition"/>
+      <class name="testngpractice.Day1"/>
+      <class name="Brokenlinks.Brokenlink2"/>
+      <class name="Brokenlinks.Brokenlink1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

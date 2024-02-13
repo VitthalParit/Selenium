@@ -1,5 +1,7 @@
 package practice;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -19,6 +21,9 @@ public void mouseaction() throws InterruptedException {
 	driver.manage().window().maximize();
 	
 	driver.navigate().to("https://extendsclass.com/text-compare.html");
+	driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+	
+	
 	
 	WebElement ss= driver.findElement(By.xpath("//*[@id=\"dropZone\"]/div[2]/div/div[6]/div[1]/div/div/div/div[5]/div[3]/pre"));
 	
@@ -27,12 +32,13 @@ public void mouseaction() throws InterruptedException {
 	s.keyDown(ss, Keys.CONTROL).sendKeys("a").sendKeys("c").build().perform();
 	Thread.sleep(3000);
 	
+	
 	WebElement zz =driver.findElement(By.xpath("//*[@id=\"dropZone2\"]/div[2]/div/div[6]/div[1]/div/div/div/div[5]/div[3]/pre"));
 	
 	s.keyDown(zz, Keys.CONTROL).sendKeys("a").sendKeys("v").build().perform();
 	
 	Thread.sleep(3000);
-	
+
 	driver.quit();
 }
 }

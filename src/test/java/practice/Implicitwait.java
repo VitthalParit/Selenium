@@ -1,5 +1,6 @@
 package practice;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -20,14 +21,13 @@ public class Implicitwait {
 		
 		driver.navigate().to("https://www.ebay.com/");
 		
-		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));    //(10,TimeUnit.SECONDS);
 		WebElement dd= driver.findElement(By.xpath("//*[@id=\"mainContent\"]/div[1]/ul/li[3]/a"));
 		
 		Actions ss=new Actions(driver);
 		
 	ss.moveToElement(dd).click().build().perform();
 	
-	driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 	
 	driver.quit();
 	

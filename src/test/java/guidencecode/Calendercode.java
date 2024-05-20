@@ -16,7 +16,7 @@ System.setProperty("webdriver.chrome.driver", "C://work//chromedriver.exe");
 ChromeDriver driver=new ChromeDriver();
 driver.get("https://www.path2usa.com/travel-companions");
 //April 23
-driver.findElementByXPath(".//*[@id='travel_date']").click();
+driver.findElement(By.xpath(".//*[@id='travel_date']")).click();
 
 
 while(!driver.findElement(By.cssSelector("[class='datepicker-days'] [class='datepicker-switch']")).getText().contains("May"))

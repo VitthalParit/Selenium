@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+	<parameter name="url" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"></parameter>
+	<parameter name="user" value="Admin"></parameter>
+	<parameter name="poss" value="admin123"></parameter>
+	<parameter name="api" value="https://rahulshettyacademy.com/client"></parameter>
+	<parameter name="email" value="vitthaleosoftqa@gmail.com"></parameter>
+	<parameter name="possward" value="9qPxdmA$Dd*u4!"></parameter>
+	<parameter name="api1" value="https://rahulshettyacademy.com/AutomationPractice/"></parameter>
+  <test thread-count="2" name="Test">
+	  
+	  <classes>
+		  <class name="testc.testc1"></class>
+		  <class name="Btestclass.shettylogin"></class>
+		  <class name="Btestclass.handlecheckboxes"></class>
+	  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

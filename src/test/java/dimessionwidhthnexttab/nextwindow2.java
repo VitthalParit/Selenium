@@ -1,5 +1,6 @@
 package dimessionwidhthnexttab;
 
+import org.testng.annotations.Test;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
@@ -37,6 +38,8 @@ public class nextwindow2 {
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 		
 		Thread.sleep(3000);
+		
+		driver.close();
 		
 		driver.switchTo().window(parent);
 		

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="smoke"></include>
+		</run>
+	</groups>
+	
+	<parameter name="api1" value="https://rahulshettyacademy.com/AutomationPractice/"></parameter>
+	<parameter name="api2" value="https://extendsclass.com/text-compare.html"></parameter>
+	<parameter name="api3" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"></parameter>
+  <test thread-count="5" name="Test">
+	  
+	  <classes>
+		  <class name="Btestclass.handlecheckboxes"></class>
+		  <class name="Btestclass.Alerttrstclass"></class>
+		  <class name="Btestclass.Tabhandletest"></class>
+		  <class name="Btestclass.webelementmtest"></class>
+		  <class name="Btestclass.mouseactiontest1"></class>
+		  <class name="Btestclass.datahashmaptestclass"></class>
+		  
+	  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,41 +1,24 @@
 package rellativeloacters;
 
-public class Rellativelocstors1 {
 
-	
+
 	import org.openqa.selenium.By;
-
-
 
 	import org.openqa.selenium.WebDriver;
 
-
-
 	import org.openqa.selenium.WebElement;
 
-
-
 	import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
-	import static org.openqa.selenium.support.locators.RelativeLocator.*;
+import static org.openqa.selenium.support.locators.RelativeLocator.*;
 
+public class Rellativelocstors1 {
 
-
-
-
-
-
-
-	public static void main(String[] args) {
-
-
-
-	// TODO Auto-generated method stub
-
-
-
-
-
+@Test
+public void rellativelocatores() {
+	
+	
 
 
 	WebDriver driver=new ChromeDriver();
@@ -69,7 +52,7 @@ public class Rellativelocstors1 {
 
 
 
-
+}
 
 
 

@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngpractice.Dataprovider3">
+      <class name="Screenshotes.Screenshotes2">
         <methods>
-          <include name="loginpage"/>
-          <include name="close"/>
-          <include name="launchbroweser"/>
+          <include name="htackescreenshotes"/>
         </methods>
-      </class> <!-- testngpractice.Dataprovider3 -->
+      </class> <!-- Screenshotes.Screenshotes2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
